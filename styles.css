@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* ... (existing styles remain the same) */
+
+
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #1f6781;
+}
+
+/* Additional styles for button focus and disabled state */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ... (existing styles remain the same) */
